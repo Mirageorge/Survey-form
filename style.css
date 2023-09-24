@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/chalk');              
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    /* background-image:url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg); */
+    background-color: #d9b38c;
+    background-repeat: repeat-y;
+    font-family: 'Lato', sans-serif;                                           
+    padding: 20px;
+    color: #f9f2ec;
+  }
+
+  #title{
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  
+  p{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  h1, p {
+    text-align: center;
+  }
+  
+  .form{
+    width: 80%;
+    background-color: #996633;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    opacity:0.9;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+  }
+  
+  label {
+    font-size:20px;
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  #dropdown{
+    width:100%;
+    padding:5px;
+  }
+  
+  #number,#email,#name{
+    margin:0;
+    width: 100%;
+    min-height: 2em;
+    padding:0;
+    position:relative;
+    display:inline-block;
+  }
+    
+  .inline{
+    position:relative;
+    display:inline-block;
+  }
+  
+  button{
+    border-radius:10px;
+    width:50%;
+    padding:10px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 700;
+    color: #996633;
+    text-transform: uppercase;
+  }
+  
+  button:hover{
+    background-color: #ac6f39;
+    cursor:pointer;
+    color: #f9f2ec;
+  }
+
+  textarea{
+    padding: 10px;
+  }
+
+  textarea.input{
+    resize: vertical;
+  }
